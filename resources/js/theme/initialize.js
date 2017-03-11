@@ -1,7 +1,7 @@
 var $navigation;
 
 function checkNavbarOffset () {
-    var offsetTop = $navigation.scrollTop();
+    var offsetTop = $navigation.offset().top;
 
     if (offsetTop < 5) {
         $navigation.addClass('navbar-top');
