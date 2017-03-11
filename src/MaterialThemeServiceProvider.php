@@ -27,6 +27,7 @@ class MaterialThemeServiceProvider extends AddonServiceProvider
         'anomaly.module.posts::categories/index' => 'theme::partials/categories/index',
         'anomaly.module.posts::tags/index' => 'theme::partials/tags/index',
         'anomaly.module.posts::posts/index' => 'theme::partials/posts/index',
+        'anomaly.module.posts::posts/view' => 'theme::partials/posts/view',
     ];
 
     protected $mobile = [];
