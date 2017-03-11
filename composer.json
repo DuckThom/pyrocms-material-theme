@@ -1,0 +1,9 @@
+{
+    "name": "luna/material-theme",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Luna\\MaterialTheme\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+#wrapper {
+  min-height: 100vh;
+  position: relative;
+
+  #main {
+    padding: ($navbar-height-top + 30) 0 300px;
+
+    .label {
+      display: inline-block;
+      margin: 5px 0;
+    }
+
+    .jumbotron {
+      border-radius: 3px;
+      box-shadow: 0 0 20px black;
+    }
+
+    .post {
+      .meta {
+        padding-top: 15px;
+      }
+
+      .summary {
+        font-size: ($font-size-base * 1.3);
+      }
+    }
+  }
+}

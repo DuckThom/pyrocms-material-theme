@@ -1,0 +1,22 @@
+.navbar {
+  &.navbar-top {
+    height: $navbar-height-top;
+
+    .navbar-brand {
+      font-size: ($navbar-font-size-top * 1.5);
+      font-weight: 500;
+      padding-top: $navbar-padding-vertical-top;
+      padding-bottom: $navbar-padding-vertical-top;
+    }
+
+    .nav a {
+      font-size: $navbar-font-size-top;
+      padding-top: $navbar-padding-vertical-top;
+      padding-bottom: $navbar-padding-vertical-top;
+    }
+  }
+
+  .nav a {
+    font-size: $navbar-font-size;
+  }
+}

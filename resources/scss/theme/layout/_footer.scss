@@ -1,0 +1,35 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .content {
+        border-top: 1px solid $footer-border-color;
+        background: $footer-bg;
+        padding: $footer-padding;
+        color: $footer-color;
+
+        .social {
+            padding: $footer-social-padding;
+            font-size: $footer-social-font-size;
+
+            li {
+                margin: $footer-social-item-margin;
+
+                a {
+                    color: $footer-social-color;
+
+                    &:hover {
+                        color: $footer-social-hover-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        background: darken($footer-bg, 10%);
+        padding: 20px 0;
+    }
+}

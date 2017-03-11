@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Categories</h4>
+    </div>
+
+    <div class="list-group">
+        {% for category in categories %}
+            <a href="{{ category.route('view') }}" class="list-group-item {{ request_url() == category.route('view') ? 'active' : '' }}">
+                {{ category.name }}
+            </a>
+        {% endfor %}
+    </div>
+</div>
+

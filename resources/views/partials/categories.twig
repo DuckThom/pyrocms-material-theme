@@ -1,0 +1,7 @@
+<div id="categories">
+
+    {% set categories = entries('posts', 'categories').get() %}
+
+    {% include "theme::partials/categories/items" with {"categories": categories} %}
+
+</div>
